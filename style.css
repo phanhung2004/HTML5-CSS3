@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/LICENSE.txt) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    margin: 5px;
+}
+header nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+ul li a:active{
+    color: red;
+}
+.banner img{
+    object-fit: cover;
+    width: 100%;
+}
+.conten .title{
+    font-size: 35px;
+    padding: 40px 20px;
+    font-family: font-strong;
+}
+.cap {
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+}
+.cap figure{
+    margin: 0 15px;
+}
+.cap figure .fig1{
+    color:  #FD4756;
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 20px;
+    font-weight: bold;
+}
+.cap figure .fig1{
+    /* color:  #FD4756; */
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 20px;
+    font-weight: bold;
+}
+.fillfoter img{
+    width: 100%;
+    object-fit: cover;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: 000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+footer button{
+    width: 127px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: FD4756;
+    color: #FFFFFF;
+}

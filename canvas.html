@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas" width="200px" height="100px" style="border: 1px solid;"></canvas>
+    <canvas id="canvas1" width="200px" height="100px" style="border: 1px solid;"></canvas>
+    <canvas id="canvas2" width="200px" height="100px" style="border: 1px solid;"></canvas>
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+        var canvas1 = document.getElementById("canvas1");
+        var ctx1 = canvas1.getContext("2d");
+        ctx1.beginPath();
+        ctx1.arc(50, 50, 40, 0,2 * Math.PI);
+        ctx1.stroke();
+        var canvas2 = document.getElementById("canvas2");
+        var ctx2 = canvas.getContext("2d");
+        ctx2.font = "30px  arial";
+        ctx2.fillText('hung', 60, 50);
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <section class="logo">
+                <canvas id="canvas" width="200" height="150"></canvas>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">THÔNG TIN TRÒ CHƠI</a></li>
+                    <li><a href="#">TRUYỀN THÔNG</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">BẢNG XẾP HẠNG</a></li>
+                    <li><a href="#">HỖ TRỢ</a></li>
+                    <li><a href="#">THỂ THAO ĐIỆN TỬ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <img src="image 46.jpg" alt="">
+        </section>
+        <section class="conten">
+            <h1 class="title">TIN TỨC MỚI NHẤT</h1>
+            <section class="cap">
+                <figure>
+                    <img src="image 47.jpg" alt="">
+                    <figcaption class="fig1">Cập nhật trò chơi</figcaption>
+                    <figcaption class="fig2">VALORANT - Thông Tin Bản Cập Nhật 4.03</figcaption>
+                </figure>
+                <figure>
+                    <img src="image 48.jpg" alt="">
+                    <figcaption class="fig1">Cập nhật trò chơi</figcaption>
+                    <figcaption class="fig2">Loạt Bài Viết Về Trạng Thái Hệ Thống Trong VALORANT - Hành Vi Tiêu Cực
+                        Trong Chat & Đàm Thoại</figcaption>
+                </figure>
+                <figure>
+                    <img src="image 49.jpg" alt="">
+                    <figcaption class="fig1">Cập nhật trò chơi</figcaption>
+                    <figcaption class="fig2">Hiện Trạng Về Các Đặc Vụ - Yoru Phần 2</figcaption>
+                </figure>
+            </section>
+        </section>
+        <section class="fillFoter">
+            <img src="image 50.jpg" alt="">
+        </section>
+        <footer>
+            <p>© 2021 All Rights Reserved</p>
+            <button>Đăng ký ngay</button>
+        </footer>
+    </section>
+
+
+
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+
+        // Vẽ hình chữ nhật đen
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(50, 30, 150, 80);
+
+        // Vẽ chữ "VALORANT"
+        ctx.font = "20px Arial";
+        ctx.fillStyle = "#FFFFFF";  // Màu chữ trắng
+        ctx.fillText("VALORANT", 72, 78);
+
+        ctx.stroke();
+    </script>
+</body>
+
+</html>
